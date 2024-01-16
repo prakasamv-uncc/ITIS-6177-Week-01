@@ -10,3 +10,12 @@ Express JS
 ## Run It
 
 `npm start`
+
+## Build the Docker image
+
+docker build -t {user name}/node-docker-hello-world .
+
+## Run the Docker Image
+
+docker run -p 5000:8080  {docker image id}
+
