@@ -11,6 +11,12 @@ Express JS
 
 `npm start`
 
+## Pre Requisites  
+
+Install Docker hub desktop
+
+Create Docker hub account.
+
 ## Build the Docker image
 
 docker build -t {user name}/node-docker-hello-world .
@@ -18,4 +24,9 @@ docker build -t {user name}/node-docker-hello-world .
 ## Run the Docker Image
 
 docker run -p 5000:8080  {docker image id}
+
+## Docker hub Public URL
+
+https://hub.docker.com/r/prakasamv6/node-docker-hello-world
+
 
